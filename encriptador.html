@@ -5,18 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
-    <link rel="stylesheet" href="/Challenge/encriptador.css">
+    <link rel="stylesheet" href="encriptador.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="../Challenge/Imagenes/Logo.png" alt="logo de alura">
+        <img src="Imagenes/Logo.png" alt="logo alura" class="logo">
     </header>
     <main>
         <section>
             <textarea name="texto" id="texto" placeholder="Ingrese el texto aquí" cols="70" rows="30"></textarea>
+            <div>
+               
+                <h6>Solo letras minúsculas y sin acentos</h6>
+            </div>
             <div class="botones">
                 <button class="bEncriptar" type="button">Encriptar</button>
                 <button class="dEncriptar" type="button">Desencriptar</button>
@@ -26,7 +30,6 @@
         <section>
             <textarea name="texto" id="traductor" cols="70" rows="30"></textarea>
             <button class="copiar" type="button"> Copiar </button>
-            <h5>Solo letras minúsculas y sin acentos</h5>
         </section>
     </main>
     

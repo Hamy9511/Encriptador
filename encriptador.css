@@ -77,7 +77,7 @@ body{
 
 }
 
-#traductor{
+.traductor{
     position: absolute;
     width: 400px;
     height: 944px;

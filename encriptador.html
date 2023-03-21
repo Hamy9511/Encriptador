@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 <body>
+    <div class="container">
     <header>
         <img src="Imagenes/Logo.png" alt="logo alura" class="logo">
     </header>
@@ -23,19 +24,20 @@
                 <h6 class="informacion"> <i class="bi-exclamation-circle-fill"></i> Solo letras minúsculas y sin acentos</h6>
             </div>
             <div class="botones">
-                <button class="bEncriptar" type="button">Encriptar</button>
-                <button class="dEncriptar" type="button">Desencriptar</button>
+                <button class="bEncriptar" type="button" onclick="btnEncriptar()">Encriptar</button>
+                <button class="dEncriptar" type="button" onclick="btnDesencriptar()">Desencriptar</button>
             </div>
             
         </section>
         <section>
             <textarea name="texto" class="mensaje" cols="20" rows="10"></textarea>
             <div class="Bcopiar">
-                <button class="copiar" type="button"> Copiar </button>    
+                <button class="copiar" type="button" onclick="copyText()"> Copiar </button>
+                   
             </div>
-            
         </section>
     </main>
-    
+    </div>
+    <script src="encriptador.js"></script>
 </body>
 </html>
